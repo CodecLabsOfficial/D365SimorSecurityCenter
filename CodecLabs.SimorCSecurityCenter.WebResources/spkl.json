@@ -1,0 +1,159 @@
+{
+  "webresources": [
+    {
+      "profile": "default,debug",
+      "root": "Webresources/",
+      "solution": null,
+      "files": [
+        {
+          "uniquename": "new_/js/somefile.js",
+          "file": "new_\\js\\somefile.js",
+          "description": "",
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/styles/custom.css",
+          "file": "/styles/custom.css",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/scripts/securityrolescheck.js",
+          "file": "/scripts/securityrolescheck.js",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/html/Home_Dashboard.htm",
+          "file": "/html/Home_Dashboard.html",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/html/SecurityRolesCheck.htm",
+          "file": "/html/SecurityRolesCheck.htm",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/html/Home.htm",
+          "file": "/html/Home.htm",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/TOS/SimorCSecurityCenter.json",
+          "file": "/TOS/SimorCSecurityCenter.js",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/TOS/SimorCSecurityCenter_Config.htm",
+          "file": "/TOS/SimorCSecurityCenter_Config.htm",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/TOS/SimorCSecurityCenter_TOS.js",
+          "file": "/TOS/SimorCSecurityCenter_TOS.js",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/TOS/TOS_SimorCSecurityCenter.htm",
+          "file": "/TOS/TOS_SimorCSecurityCenter.htm",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/scripts/home.js",
+          "file": "/scripts/home.js",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/scripts/home_dashboard.js",
+          "file": "/scripts/home_dashboard.js",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/scripts/securityrolescheck_export.js",
+          "file": "/scripts/securityrolescheck_export.js",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/scripts/securityrolescheck_roles.js",
+          "file": "/scripts/securityrolescheck_roles.js",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/scripts/securityrolescheck_teams.js",
+          "file": "/scripts/securityrolescheck_teams.js",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/scripts/securityrolescheck_users.js",
+          "file": "/scripts/securityrolescheck_users.js",
+          "description": null,
+          "ts": null
+        },
+        {
+          "uniquename": "clabs_/SRC/scripts/securityrolescheck_privileges.js",
+          "file": "/scripts/securityrolescheck_privileges.js",
+          "description": null,
+          "ts": null
+        }
+      ]
+    }
+  ],
+  "plugins": [
+    {
+      "profile": "default,debug",
+      "assemblypath": "bin\\Debug",
+      "classRegex": null
+    }
+  ],
+  "earlyboundtypes": [
+    {
+      "entities": "account,contact,quote",
+      "actions": "dev1_simpleaction",
+      "generateOptionsetEnums": true,
+      "generateGlobalOptionsets": false,
+      "generateStateEnums": true,
+      "filename": "EarlyBoundTypes.cs",
+      "classNamespace": "CodecLabs.SimorCSecurityCenter.WebResources",
+      "serviceContextName": "XrmSvc"
+    }
+  ],
+  "solutions": [
+    {
+      "profile": "default,debug",
+      "solution_uniquename": "spkltestsolution",
+      "packagepath": "package",
+      "solutionpath": "solution_{0}_{1}_{2}_{3}.zip",
+      "packagetype": "unmanaged",
+      "increment_on_import": false,
+      "map": [
+        {
+          "map": "path",
+          "from": "PluginAssemblies\\**\\*.*",
+          "to": "..\\..\\Plugins\\bin\\**"
+        },
+        {
+          "map": "path",
+          "from": "WebResources\\*.*",
+          "to": "..\\..\\Webresources\\Webresources\\**"
+        },
+        {
+          "map": "path",
+          "from": "WebResources\\**\\*.*",
+          "to": "..\\..\\Webresources\\Webresources\\**"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+﻿.tile.tile-wide {
+    width: 100%;
+    height: 34%;
+}
+
+.big-icon {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+h2.tile-text.with-icon {
+    margin-top: 5px;
+}
+
+.row {
+    margin-left: -7px;
+    margin-right: -7px;
+    height: calc(100vh - 70px);
+}
+
+.container {
+    margin-left: 7px;
+    width: 98%;
+}
+
+.container-home {
+    min-width: 900px;
+}
+
+#right-panel {
+    height: calc(100vh - 52px);
+    width: 74.5% !important;
+    padding: 0 !important;
+    padding: 0 !important;
+}
+
+.left-panel {
+    padding: 0;
+    margin: 0;
+    height: calc(100vh - 70px);
+}
+
+.tile {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+    .tile.active {
+        opacity: 1;
+    }
+
+.menu-button {
+    display: table;
+}
+
+    .menu-button > .tile-text {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .menu-button.active > .tile-text {
+        text-decoration: underline;
+    }
+
+.tile-with-icon > i.fa {
+    font-size: 15px;
+}
+
+.tile-with-icon > h1 {
+    font-size: 15px;
+}
+
+.tile-with-icon > h2 {
+    font-size: 15px;
+}

@@ -1,0 +1,80 @@
+﻿#btnOpenPage {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.header-row {
+    height: auto;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #aaa;
+}
+
+.dashboard-table > tbody > tr > th {
+    width: 15%;
+}
+
+.sub-row {
+    padding-left: 50px !important;
+}
+
+.sub-row-tr {
+    font-style: italic !important;
+    font-weight: bold !important;
+}
+
+#btnToggleLicenses {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tile-big {
+    width: 180px;
+    height: 155px;
+    margin: 10px;
+}
+
+.tile h1 {
+    font-size: 33px;
+    margin-top: 36px;
+}
+
+.tile h2 {
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+#btnLicenses > h1 {
+    font-size: 23px !important;
+}
+
+    .tile-with-icon:hover > h1 {
+        text-decoration: underline;
+    }
+
+.tile-with-icon.active > h1 {
+    text-decoration: underline;
+}
+
+.text-underscore {
+    text-decoration: underline;
+}
+
+.text-italic {
+    font-style: italic !important;
+}
+
+.tile-clouds {
+    border: 1px solid #ddd;
+}
+
+.tile-license > h1 {
+    font-size: 23px !important;
+}
+
+.tile-with-icon > i.fa {
+    margin-top: 30px;
+}
+
+.tile-with-icon > h1 {
+    margin-top: 0;
+}

@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/CodecLabs.SimorCSecurityCenter.WebResources/obj/Debug
+/CodecLabs.SimorCSecurityCenter.WebResources/obj/Release
